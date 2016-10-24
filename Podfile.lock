@@ -1,0 +1,71 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - ComponentKit (0.15.1)
+  - DateTools (1.7.0)
+  - Mantle (1.5.8):
+    - Mantle/extobjc (= 1.5.8)
+  - Mantle/extobjc (1.5.8)
+  - RedditKit (1.4.0):
+    - AFNetworking (~> 2.4)
+    - Mantle (~> 1.5)
+  - YapDatabase (2.7.7):
+    - YapDatabase/standard (= 2.7.7)
+  - YapDatabase/standard (2.7.7):
+    - CocoaLumberjack (~> 2)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - ComponentKit (~> 0.15)
+  - DateTools
+  - RedditKit (from `https://github.com/samsymons/RedditKit.git`)
+  - YapDatabase
+
+EXTERNAL SOURCES:
+  RedditKit:
+    :git: https://github.com/samsymons/RedditKit.git
+
+CHECKOUT OPTIONS:
+  RedditKit:
+    :commit: f453c35b6dfde089e7e808e0106c481e812173fc
+    :git: https://github.com/samsymons/RedditKit.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  ComponentKit: beef88630f344efb8344fe40fc6fc7c1732b68c8
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  Mantle: f03b2b606c3f0cabd80214ad8a2fed6b464a7359
+  RedditKit: a08a7d7b722e61f6669c63ccd92aa709acb09607
+  YapDatabase: a7a1ae3e0f89c319e3b22615c2351987fbbdbded
+
+PODFILE CHECKSUM: a96adc08119e1abb53d8a2485f14a0a7b5ef3b4e
+
+COCOAPODS: 1.0.1
